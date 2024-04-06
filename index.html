@@ -4,24 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- nt awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="main-container-spotify">
-      <div class="main-container bg-[#000000] h-screen w-full">
-        <div class="left-side-container  w-2/5 border-4 h-screen border-sky-500">
-            <div class="left-data  border-red-500 ">
-                    <div class="left-menu">
-                        <div>
-                            icon
-                            Hoem
-                        </div>
+      <div class="main-container bg-[#000000] text-white h-screen w-full">
+        <div
+          class="left-side-container p-4 w-1/4 border-4 h-screen border-sky-500"
+        >
+          <div class="left-data border-red-500">
+            <div class="left-top-menu border-2 border-red-500 bg-[#121212]">
+              <div class="left-menu">
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                  Home
+                </div>
 
-                        <div>
-                            s-icon
-                            
-                        </div>
-                    </div>
+                <div>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                   search
+                </div>
+              </div>
             </div>
+
+            <!-- lsbc - left-side-bottom-container -->
+            <div class="lsbc">
+              <div class="lsbc-top">
+                <div>
+                  <span class="your-library-icon"><i class="fa-solid fa-layer-group"></i></span>
+                  <h2>Your Library</h2>
+                  <span><i class="fa-solid fa-plus"></i></span>
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </div>
+
+                <div>
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <span>Recent  </span>
+                  
+                </div>
+
+                <div class="lsbc-list">
+                  <div class="lsbc-cards liked-songs-contatiner">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards your-episodes-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards podcast-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards song-album-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards artist-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards podcast-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                  <div class="lsbc-cards podcast-container">
+                    <img src="" alt="" />
+                    <h3>heading here</h3>
+                    <div class="lsbc-about-card">Podcast</div>
+                    <span>More info</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="right-side-container"></div>
       </div>
