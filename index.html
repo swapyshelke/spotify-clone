@@ -18,46 +18,86 @@
     <div class="main-container-spotify">
       <div class="main-container bg-[#000000] text-white h-screen w-full">
         <div
-          class="left-side-container p-4 w-1/4 border-4 h-screen border-sky-500"
+          class="left-side-container p-4 w-[35%] border-4 h-screen border-sky-500"
         >
           <div class="left-data border-red-500">
-            <div class="left-top-menu border-2 border-red-500 bg-[#121212]">
-              <div class="left-menu">
+            <div class="left-top-menu bg-[#121212]">
+              <div class="left-menu p-2">
                 <div>
-                  <i class="fa-solid fa-house"></i>
-                  Home
+                  <i class="fa-solid fa-house text-xl"></i>
+                  <span class="ml-2 font-bold">Home</span>
                 </div>
 
-                <div>
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                   search
+                <div class="mt-3">
+                  <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                  <span class="ml-2">Search</span>
                 </div>
               </div>
             </div>
 
             <!-- lsbc - left-side-bottom-container -->
-            <div class="lsbc">
+            <div class="lsbc bg-[#121212] mt-2">
               <div class="lsbc-top">
-                <div>
-                  <span class="your-library-icon"><i class="fa-solid fa-layer-group"></i></span>
-                  <h2>Your Library</h2>
+                <div class="flex justify-between p-2 pt-4">
+                  <div class="flex">
+                    <span class="your-library-icon">
+                      <svg
+                        data-encore-id="icon"
+                        role="img"
+                        aria-hidden="true"
+                        viewBox="0 0 24 24"
+                        class="Svg-sc-ytk21e-0 bneLcE fill-current text-slate-600 size-8"
+                      >
+                        <path
+                          d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"
+                        ></path>
+                      </svg>
+                    </span>
+                    <h2 class="ml-2">Your Library</h2>
+                  </div>
                   <span><i class="fa-solid fa-plus"></i></span>
                   <span><i class="fa-solid fa-arrow-right-long"></i></span>
                 </div>
 
-                <div>
-                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                  <span>Recent  </span>
-                  
+                <div class="lsbc-buttons flex justify-between my-3 p-1">
+                  <div
+                    class="lsbc-btn btn-artists text-sm bg-[#222200] rounded-[10px] px-[12px]"
+                  >
+                    Artists
+                  </div>
+
+                  <div
+                    class="lsbc-btn btn-artists text-sm bg-[#222200]text-center rounded-[10px] p-[2px]"
+                  >
+                    Podcasts & Shows
+                  </div>
+                </div>
+
+                <div class="flex justify-between p-2">
+                  <span
+                    ><i class="fa-solid fa-magnifying-glass stroke-cyan-900"></i
+                  ></span>
+                  <span>Recents </span>
                 </div>
 
                 <div class="lsbc-list">
-                  <div class="lsbc-cards liked-songs-contatiner">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
+                  <div
+                    class="lsbc-cards liked-songs-contatiner h-14 flex"
+                  >
+                    <div class="lsbc-cards-img-cont">
+                      <img
+                        src="https://misc.scdn.co/liked-songs/liked-songs-64.png"
+                        class="bg-cover"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="lsbc-card-info flex lex-col"></div>
+                      <h3 class="w-full">Liked Songs</h3>
+                      <div class="lsbc-about-card">playlist</div>
+                      <span>46 Songs</span>
                   </div>
+
                   <div class="lsbc-cards your-episodes-container">
                     <img src="" alt="" />
                     <h3>heading here</h3>
