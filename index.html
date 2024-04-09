@@ -18,7 +18,7 @@
     <div class="main-container-spotify">
       <div class="main-container bg-[#000000] text-white h-screen w-full">
         <div
-          class="left-side-container p-4 w-[35%] border-4 h-screen border-sky-500"
+          class="left-side-container p-4 w-[35%] border-4 h-screen overflow-hidden  border-sky-500"
         >
           <div class="left-data border-red-500">
             <div class="left-top-menu bg-[#121212]">
@@ -55,13 +55,16 @@
                     </span>
                     <h2 class="ml-2">Your Library</h2>
                   </div>
-                  <span><i class="fa-solid fa-plus"></i></span>
+                 <div>
+                  <span><i class="fa-solid fa-plus mr-2"></i></span>
                   <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                 </div>
                 </div>
 
-                <div class="lsbc-buttons flex justify-between my-3 p-1">
+                <div class="lsbc-buttons  space-around  my-3 p-1">
+                  <div class="lsbc-buttons flex space-around  my-3 p-1">
                   <div
-                    class="lsbc-btn btn-artists text-sm bg-[#222200] rounded-[10px] px-[12px]"
+                    class="lsbc-btn btn-artists text-sm bg-[#222200] rounded-[10px] mr-2"
                   >
                     Artists
                   </div>
@@ -73,66 +76,69 @@
                   </div>
                 </div>
 
-                <div class="flex justify-between p-2">
-                  <span
-                    ><i class="fa-solid fa-magnifying-glass stroke-cyan-900"></i
-                  ></span>
-                  <span>Recents </span>
-                </div>
-
-                <div class="lsbc-list">
-                  <div
-                    class="lsbc-cards liked-songs-contatiner h-14 flex"
-                  >
-                    <div class="lsbc-cards-img-cont">
-                      <img
-                        src="https://misc.scdn.co/liked-songs/liked-songs-64.png"
-                        class="bg-cover"
-                        alt=""
-                      />
+                <!-- from here -->
+                <div class="  border-2">
+                  <div class="flex justify-between p-2 ">
+                    <span
+                      ><i class="fa-solid fa-magnifying-glass stroke-cyan-900"></i
+                    ></span>
+                    <span>Recents </span>
+                  </div>
+  
+                  <div class="lsbc-list">
+                    <div
+                      class="lsbc-cards liked-songs-contatiner h-14 flex"
+                    >
+                      <div class="lsbc-cards-img-cont">
+                        <img
+                          src="https://misc.scdn.co/liked-songs/liked-songs-64.png"
+                          class="bg-cover"
+                          alt=""
+                        />
+                      </div>
+  
+                      <div class="lsbc-card-info flex lex-col"></div>
+                        <h3 class="w-full">Liked Songs</h3>
+                        <div class="lsbc-about-card">playlist</div>
+                        <span>46 Songs</span>
                     </div>
-
-                    <div class="lsbc-card-info flex lex-col"></div>
-                      <h3 class="w-full">Liked Songs</h3>
-                      <div class="lsbc-about-card">playlist</div>
-                      <span>46 Songs</span>
-                  </div>
-
-                  <div class="lsbc-cards your-episodes-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
-                  </div>
-                  <div class="lsbc-cards podcast-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
-                  </div>
-                  <div class="lsbc-cards song-album-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
-                  </div>
-                  <div class="lsbc-cards artist-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
-                  </div>
-                  <div class="lsbc-cards podcast-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
-                  </div>
-                  <div class="lsbc-cards podcast-container">
-                    <img src="" alt="" />
-                    <h3>heading here</h3>
-                    <div class="lsbc-about-card">Podcast</div>
-                    <span>More info</span>
+  
+                    <div class="lsbc-cards your-episodes-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
+                    <div class="lsbc-cards podcast-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
+                    <div class="lsbc-cards song-album-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
+                    <div class="lsbc-cards artist-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
+                    <div class="lsbc-cards podcast-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
+                    <div class="lsbc-cards podcast-container">
+                      <img src="" alt="" />
+                      <h3>heading here</h3>
+                      <div class="lsbc-about-card">Podcast</div>
+                      <span>More info</span>
+                    </div>
                   </div>
                 </div>
               </div>
