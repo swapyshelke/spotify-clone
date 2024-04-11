@@ -16,7 +16,8 @@
   </head>
   <body class="">
     <div class="main-container-spotify">
-      <div class="main-container bg-[#000000] text-white h-screen w-full">
+      <div class="main-container bg-[#000000] text-white h-screen w-full flex">
+        <!-- left side container -->
         <div
           class="left-side-container p-4 w-[35%] border-4 h-screen overflow-hidden  border-sky-500"
         >
@@ -148,7 +149,63 @@
         <div class="right-side-container"></div>
       </div>
 
-      <div class="bottom-container"></div>
+      <!-- right side container -->
+      <div>
+        <div class="right-side-container h-screen   border-2 border-red-400">
+          <!-- top-m-c: top-most-container //  rsc: right-side-container  -->
+          <div class="top-m-c rsc w-[65%]	 border-2 border-red-400">
+            <div>
+              <i class="right-icon"></i>
+              <i class="left-icon"></i>
+            </div>
+
+            <div class=" btns">
+                <a href="#" class="exp-btn">Explore Premium</a>
+                <a href="#" class="installed-btn">Installed App</a>
+                <i class="bel-icon">🔕</i>
+                <i class="warning-icon">!</i>
+            </div>
+
+
+          </div>
+
+          <!-- category bttons -->
+          <div class="cat-buttons">
+            <a href="#" class="btn">
+              All
+            </a>
+
+            <a href="#">Music</a>
+            <a href="#">Podcasts</a>
+          </div>
+
+          <!-- lspap: liked-songs-podcasts-albums-playlists -->
+
+          <div class="lspap">
+            <div class="cards">
+              <!-- card-ls: card-liked-songs  -->
+                <div class="card-ls">
+                    <img class="h-10" src="https://misc.scdn.co/liked-songs/liked-songs-640.png" alt="">
+                    <span>Liked Songs</span>
+                </div>
+            </div>
+          </div>
+
+          <!-- efu: episodes-for-you -->
+
+          <div class="efu-cards">
+            <div class="efu-card">
+              <img class="h-10" src="https://i.scdn.co/image/ab67656300005f1f1e5eede48f9ccb962e7df231" alt="">
+              <span>Dark personality</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+        
+      </div>
+      <div class="bottom-container border-2 border-red-400 h-20"></div>
     </div>
   </body>
 </html>
